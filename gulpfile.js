@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var browserify = require('browserify');
 var babelify = require('babelify');
 var source = require('vinyl-source-stream');
+var webserver = require('gulp-webserver');
 
 gulp.task('build', function () {
     return browserify({entries: './app.jsx', extensions: ['.jsx'], debug: true})
@@ -13,6 +14,15 @@ gulp.task('build', function () {
 
 gulp.task('watch', ['build'], function () {
     gulp.watch('*.jsx', ['build']);
+});
+
+gulp.task('webserver', function() {
+  gulp.src('./')
+    .pipe(webserver({
+      livereload: true,
+      directoryListing: true,
+      open: true
+    }));
 });
 
 gulp.task('default', ['watch']);
