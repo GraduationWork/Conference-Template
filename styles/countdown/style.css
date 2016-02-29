@@ -1,13 +1,26 @@
-.my-flex-container{
-  display: flex;
+.timedownBlock{
+ width: 500px;
 }
 
-.my-flex-block {
-  flex-direcrion:column;
-  flex-wrap: wrap;
-  border: 3px gray solid;
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  margin: 20px;
+.timedownElement {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.timedownElementValue {
+	background: rgba(40,50,61,0.62);
+	font-family: "Roboto",sans-serif;
+	font-size: 70px;
+	padding: 10px;
+	color:white;
+}
+
+.timedownElementLabel {
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+
+.timedownElementSecondsValue {
+    color: #e55182
 }
