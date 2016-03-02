@@ -4,11 +4,10 @@ export default class Speaker extends React.Component {
 
 	constructor(props) {
         super(props);
-        this.state = { days: 0, hours: 0, minutes: 0, seconds: 0 };
     }
 
     componentWillMount() {
-        console.log("componentWillMount")
+        console.log("componentWillMount2")
     }
 
     componentDidMount() {
@@ -16,7 +15,7 @@ export default class Speaker extends React.Component {
     }
 
     componentWillUnmount() {
-        console.log("componentWillUnmount")
+        console.log("componentWillUnmount2")
     }
 
 	render() {
