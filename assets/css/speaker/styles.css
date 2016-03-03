@@ -1,0 +1,23 @@
+.speaker-block {
+
+}
+
+.speaker-img {
+	clear: inherit;
+	border-radius: 50%;
+	width: 100px;
+	height:100px;
+}
+
+.speaker-name {
+
+}
+
+.speaker-description {
+
+}
+
+.speakers-block {
+	display: block;
+	float: left;
+}
