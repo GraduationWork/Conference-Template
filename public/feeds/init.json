@@ -1,5 +1,19 @@
 {
 	"start": 1466726400,
+	"logoUrl": "http://conf.1c-bitrix.ru/winter2016/images/logo.png",
+	"title": "Дипломный проект",
+	"navigation": [{
+		"title": "Материалы",
+		"link": "http://conf.1c-bitrix.ru/winter2016/"
+	},
+	{
+		"title": "Материалы",
+		"link": "http://conf.1c-bitrix.ru/winter2016/"
+	},
+	{
+		"title": "Материалы",
+		"link": "http://conf.1c-bitrix.ru/winter2016/"
+	}],
 	"speakers": [{
 		"name": "Aliaksandr Kassirau",
 		"description": "Software Engineer at EPAM Systems",

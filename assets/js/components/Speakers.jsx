@@ -20,8 +20,7 @@ export default class Speakers extends React.Component {
                                 description={speaker.description}
                                 profileDetailsUrl={speaker.profileDetailsUrl}
                                 photoUrl={speaker.photoUrl}
-                            />;
-                        
+                            />;    
                     })
                 }
             </div>
