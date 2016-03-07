@@ -1,6 +1,8 @@
 import React from 'react';
 import Speakers from './Speakers';
 import Timedown from './Timedown';
+import Header from './Header';
+import ConferenceBanner from './ConferenceBanner';
 
 export default class ReactApp extends React.Component {
 
@@ -32,7 +34,12 @@ export default class ReactApp extends React.Component {
         console.log(content)
         return (
             <div>
-                <Timedown time={content.start} />
+                <Header title={content.title}
+                        logoUrl={content.logoUrl}
+                        navigation={content.navigation}
+                        socials={content.socials} />
+                <ConferenceBanner times={content.times}
+                    background={content.background}/>
                 <Speakers speakers={content.speakers} />
             </div>
         );

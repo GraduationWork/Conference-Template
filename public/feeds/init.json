@@ -1,7 +1,12 @@
 {
-	"start": 1466726400,
-	"logoUrl": "http://conf.1c-bitrix.ru/winter2016/images/logo.png",
-	"title": "Дипломный проект",
+	"logoUrl": "http://conf.grsu.by/lf2016/images/logo_grsu.png",
+	"title": "Выпускной вечер",
+  	"background": "http://www.abiturient.by/files/univer-photos/ozheshko_smol.jpg",
+  	"times": {
+		"start": 1466726400,
+		"date": "24-25 июня 2016",
+		"place": "Гродно, Ночной клуб \"База\""
+  	},
 	"navigation": [{
 		"title": "Материалы",
 		"link": "http://conf.1c-bitrix.ru/winter2016/"
@@ -14,6 +19,23 @@
 		"title": "Материалы",
 		"link": "http://conf.1c-bitrix.ru/winter2016/"
 	}],
+  	"socials": [{
+	  "socialUrl": "https://www.youtube.com/user/1CBitrixChannel",
+	  "logoUrl": "https://cdn3.iconfinder.com/data/icons/social-icons-5/607/YouTube_Play.png"
+	  },
+	  {
+		"socialUrl": "https://www.youtube.com/user/1CBitrixChannel",
+		"logoUrl": "http://ishinews.com/wp-content/uploads/2015/12/ISHI27-Facebook-icon.png"
+	  },
+	  {
+		"socialUrl": "https://www.youtube.com/user/1CBitrixChannel",
+		"logoUrl": "https://cdn3.iconfinder.com/data/icons/social-icons-5/607/YouTube_Play.png"
+	  },
+	  {
+		"socialUrl": "https://www.youtube.com/user/1CBitrixChannel",
+		"logoUrl": "http://ishinews.com/wp-content/uploads/2015/12/ISHI27-Facebook-icon.png"
+	  }
+	],
 	"speakers": [{
 		"name": "Aliaksandr Kassirau",
 		"description": "Software Engineer at EPAM Systems",

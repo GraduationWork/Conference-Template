@@ -36,10 +36,11 @@ export default class Speaker extends React.Component {
             <div>
                 <a href={profileDetailsUrl}>
                     <div className="speaker-block">
-                        
-                            <img src={photoUrl} className="speaker-img"/>
+                        <img src={photoUrl} className="speaker-img"/>
+                        <div className="speaker-info-box">
                             <div className="speaker-name">{name}</div>
                             <div className="speaker-description">{description}</div>
+                        </div>
                     </div>
                 </a>
             </div>

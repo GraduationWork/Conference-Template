@@ -1,0 +1,15 @@
+.socials-block {
+    display: flex;
+}
+
+.social-block {
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:flex-start;
+}
+
+.social-img {
+    margin-right: 8px;
+    width: 36px;
+    height: 36px;
+}

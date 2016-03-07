@@ -13,10 +13,10 @@ export default class Socials extends React.Component {
 
 	render() {
         return (
-            <div className="speakers-block">
+            <div className="socials-block">
                 {
                     this.props.socials.map(function(social) {
-                        return <Social logoUrl={social.logoUrl} />;
+                        return <Social logoUrl={social.logoUrl} socialUrl={social.socialUrl} />;
                     })
                 }
             </div>

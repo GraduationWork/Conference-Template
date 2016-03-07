@@ -4,7 +4,7 @@ import React from 'react'
 export default class Timedown extends React.Component {
 
     static defaultProps = {
-        time: Date.now(),
+        time: Date.now()
     }
 
     //documentation - https://www.npmjs.com/package/request-promise
@@ -50,19 +50,19 @@ export default class Timedown extends React.Component {
             <div className="timedownBlock">
                 <div className="timedownElement timedownDays">
                     <div className="timedownElementValue">{this.state.days}</div>
-                    <div className="timedownElementLabel">Days</div>
+                    <div className="timedownElementLabel">Дней</div>
                 </div>
                 <div className="timedownElement timedownHours">
                     <div className="timedownElementValue">{this.state.hours}</div>
-                    <div className="timedownElementLabel">Hours</div>
+                    <div className="timedownElementLabel">Часов</div>
                 </div>
                 <div className="timedownElement timedownMinutes">
                     <div className="timedownElementValue">{this.state.minutes}</div>
-                    <div className="timedownElementLabel">Minutes</div>
+                    <div className="timedownElementLabel">Минут</div>
                 </div>
                 <div className="timedownElement timedownSeconds">
                     <div className="timedownElementValue timedownElementSecondsValue">{this.state.seconds}</div>
-                    <div className="timedownElementLabel">Seconds</div>
+                    <div className="timedownElementLabel">Секунд</div>
                 </div>
             </div>
         );

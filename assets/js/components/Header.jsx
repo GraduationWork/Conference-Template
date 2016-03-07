@@ -6,7 +6,7 @@ export default class Header extends React.Component {
     
     static defaultProps = {
         navigation: [],
-        socials: []
+        socials: [],
         title: '',
         logoUrl: ''
     }
@@ -18,12 +18,16 @@ export default class Header extends React.Component {
     render() {
         return (
             <header>
-                <div>
-                    <img src={this.props.logoUrl} className="logo-class" />
-                    <h3>{this.props.title}</h3>
+                <div className="header-block">
+                    <div className="header-info-socials-wrapper">
+                        <div className="header-info-block">
+                            <img src={this.props.logoUrl} className="header-logo" />
+                            <h1 className="header-title">{this.props.title}</h1>
+                        </div>
+                        <Socials socials={this.props.socials} />
+                    </div>
+                    <Navigation navigation={this.props.navigation} />
                 </div>
-                <Socials socials={this.props.socials} />
-                <Navigation navigation={this.props.navigation} />
             </header>
         );
     }

@@ -1,0 +1,19 @@
+.date-place-block {
+    display:flex;
+    font-size: 23px;
+    border: 5px #fcfcfb Solid;
+}
+
+.date-place-block-date {
+    padding: 20px 28px 19px;
+    font-weight: bold;
+    background: #fcfcfb;
+    color: #0d3763;
+}
+
+.date-place-block-place {
+    padding: 20px 28px 19px;
+    font-weight: bold;
+    border: 2px #fcfcfb;
+    color: #fcfcfb;
+}

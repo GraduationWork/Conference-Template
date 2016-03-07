@@ -1,5 +1,7 @@
 .timedownBlock{
- width: 500px;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .timedownElement {

@@ -3,7 +3,8 @@ import React from 'react';
 export default class Social extends React.Component {
     
     static defaultProps = {
-        logoUrl: ''
+        logoUrl: '',
+        socialUrl: ''
     }
 
     constructor(props) {
@@ -12,9 +13,9 @@ export default class Social extends React.Component {
 
     render() {
         return (
-            <div className="social-block">
+            <a href={this.props.socialUrl} className="social-block">
                 <img src={this.props.logoUrl} className="social-img"/>
-            </div>
+            </a>
         );
     }
 

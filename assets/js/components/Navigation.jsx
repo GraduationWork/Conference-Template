@@ -13,12 +13,12 @@ export default class Navigation extends React.Component {
     render() {
         return (
             <nav className="navigation-block">
-                <ul>
+                <ul className="navigation-list">
                 {
                     this.props.navigation.map(function(nav) {
                         return (
-                            <li>
-                                <a href="{nav.link}">{nav.title}</a>
+                            <li className="navigation-element">
+                                <a href="{nav.link}" className="navigation-element-text">{nav.title}</a>
                             </li>
                         );    
                     })
