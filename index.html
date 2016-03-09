@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
+    <div id="map" style="width: 600px; height: 400px"></div>
 	<div id="react-app" />
-
 	<script src="app/bundle.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
     <script>
         (function(d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
@@ -18,6 +19,24 @@
             js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=956456357725669";
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script type="text/javascript">
+        ymaps.ready(init);
+        var myMap, 
+            myPlacemark;
+
+        function init(){ 
+            myMap = new ymaps.Map("map", {
+                center: [53.685108, 23.839949],
+                zoom: 18
+            }); 
+            myPlacemark = new ymaps.Placemark([53.685108, 23.839949], {
+                hintContent: 'Университет!',
+                balloonContent: 'Гродненский государственнйы Университет имени Янки Купалы'
+            });
+            
+            myMap.geoObjects.add(myPlacemark);
+        }
     </script>
 
 

@@ -18,7 +18,7 @@ export default class Navigation extends React.Component {
                     this.props.navigation.map(function(nav) {
                         return (
                             <li className="navigation-element">
-                                <a href="{nav.link}" className="navigation-element-text">{nav.title}</a>
+                                <a href={nav.link} className="navigation-element-text">{nav.title}</a>
                             </li>
                         );    
                     })
