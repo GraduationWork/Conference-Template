@@ -3,6 +3,9 @@ import Speakers from './Speakers';
 import Timedown from './Timedown';
 import Header from './Header';
 import ConferenceBanner from './ConferenceBanner';
+import YoutubeVideo from './YoutubeVideo';
+import Stakeholders from './Stakeholders';
+import FacebookComments from './FacebookComments';
 
 export default class ReactApp extends React.Component {
 
@@ -40,9 +43,21 @@ export default class ReactApp extends React.Component {
                         socials={content.socials} />
                 <ConferenceBanner times={content.times}
                     background={content.background}/>
+                <YoutubeVideo videoId={content.videoId}/>
                 <Speakers speakers={content.speakers} />
+                <Stakeholders stakeholders={content.stakeholders}
+                              background={content.stakeholdersBackground} />
+                <FacebookComments />
             </div>
         );
+        /*
+        * TODO list
+             * Registration
+             * Agenda
+             * Location on map (yandex map)
+             * Footer
+        *
+        * */
     }
 
 }

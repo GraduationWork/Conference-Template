@@ -3,11 +3,23 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Conference</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
 	<div id="react-app" />
+
 	<script src="app/bundle.js"></script>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=956456357725669";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
 </body>
 </html>

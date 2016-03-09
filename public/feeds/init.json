@@ -2,6 +2,7 @@
 	"logoUrl": "http://conf.grsu.by/lf2016/images/logo_grsu.png",
 	"title": "Выпускной вечер",
   	"background": "http://www.abiturient.by/files/univer-photos/ozheshko_smol.jpg",
+  	"videoId": "Mx22NaWmFhk",
   	"times": {
 		"start": 1466726400,
 		"date": "24-25 июня 2016",
@@ -65,5 +66,9 @@
 		"description": "Software Engineer at EPAM Systems",
 		"profileDetailsUrl": "https://www.facebook.com",
 		"photoUrl": "https://avatars0.githubusercontent.com/u/7274814?v=3&s=460"
-	}]
+	}],
+  	"stakeholders": [{"text": "Владельцам, менеджерам и маркетологам веб-студий, системных интеграторов, рекламных агентств, которые стремятся повысить уровень продаж"},
+	  {"text": "Программистам на платформе «1С-Битрикс», которые хотят быть в курсе всех новинок и желают обсудить проблемные моменты"},
+	  {"text": "Представителям компаний, которые заинтересованы в партнерстве с «1С-Битрикс» и хотят оценить выгоду от сотрудничества"}],
+    "stakeholdersBackground": "http://conf.1c-bitrix.ru/bitrix/templates/tmp_s1_winter2016/images/about-bg.jpg"
 }

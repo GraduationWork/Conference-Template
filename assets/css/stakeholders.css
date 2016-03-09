@@ -1,0 +1,31 @@
+.stakeholders-wrapper {
+    color: #fff;
+    width: 100%;
+}
+
+.stakeholders-block {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.stakeholders-block-header {
+    color: #fff;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 300;
+    width:400px;
+    margin: auto;
+}
+
+.stakeholders-blocks-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.stakeholder-block {
+    width: 410px;
+    padding: 30px;
+    border: 3px #fff solid;
+    margin: 20px;
+}
