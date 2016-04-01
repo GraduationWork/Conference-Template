@@ -6,6 +6,7 @@ import ConferenceBanner from './ConferenceBanner';
 import YoutubeVideo from './YoutubeVideo';
 import Stakeholders from './Stakeholders';
 import FacebookComments from './FacebookComments';
+import YandexMaps from './YandexMaps';
 
 export default class ReactApp extends React.Component {
 
@@ -47,6 +48,7 @@ export default class ReactApp extends React.Component {
                 <Speakers speakers={content.speakers} />
                 <Stakeholders stakeholders={content.stakeholders}
                               background={content.stakeholdersBackground} />
+                <YandexMaps />
                 <FacebookComments />
             </div>
         );
